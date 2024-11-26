@@ -69,7 +69,7 @@ From the `build` folder run:
 ./sudoku-solver ../sudoku.txt
 ```
 
-Optionally, you can pass a ticker to it, so instead of solving it instantly, you'll create a simple animation with sounds while solving the sudoku. I recommend using this option because it's fun:
+Optionally, you can pass a ticker to it, so instead of solving it instantly, you'll create a simple animation with sounds while solving the sudoku. I recommend using this option because it's fun (try 0.2 or 0.1):
 ```bash
 ./sudoku-solver ../sudoku.txt -t [number between 0.0 and 60.0]
 ```
