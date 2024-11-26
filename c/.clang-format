@@ -1,0 +1,41 @@
+AlignAfterOpenBracket: BlockIndent
+AlignConsecutiveMacros: false
+AlignEscapedNewlines: DontAlign
+AlignOperands: false
+AlignTrailingComments: false
+AllowShortBlocksOnASingleLine: true
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse
+AllowShortLoopsOnASingleLine: true
+BinPackArguments: false
+BinPackParameters: false
+BreakBeforeBraces: Attach
+BreakConstructorInitializers: AfterColon
+BreakStringLiterals: false
+ColumnLimit: 80
+ConstructorInitializerIndentWidth: 4
+ContinuationIndentWidth: 4
+Cpp11BracedListStyle: true
+FixNamespaceComments: false
+IncludeBlocks: Merge
+IncludeCategories:
+  - Regex: '"[[:alnum:]._-]+"'
+    Priority: 1
+    SortPriority: 1
+  - Regex: '^((<|").*/)'
+    Priority: 2
+    SortPriority: 2
+  - Regex: "<[[:alnum:]._-]+>"
+    Priority: 3
+    SortPriority: 3
+IndentCaseLabels: true
+IndentPPDirectives: BeforeHash
+IndentWidth: 4
+NamespaceIndentation: All
+PenaltyReturnTypeOnItsOwnLine: 200
+ReflowComments: false
+SortIncludes: true
+SortUsingDeclarations: false
+SpacesInContainerLiterals: false
+TabWidth: 4
+UseTab: Never
